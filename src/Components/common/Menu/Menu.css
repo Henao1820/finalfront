@@ -1,0 +1,24 @@
+.menu {
+    background-color: #006400;
+  }
+  
+  .navbar-nav.ms-auto {
+    margin-left: auto;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem; 
+    margin-right: 10px;  
+  }
+  
+  .navbar-logo {
+    height: 40px;  
+    width: auto;  
+    max-width: 100px; 
+  }
+  

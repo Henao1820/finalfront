@@ -1,0 +1,23 @@
+.custom-bg {
+    min-height: 100vh;
+    background-color: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    margin-top: 2rem;
+  }
+  
+  form {
+    border: 2px solid goldenrod ; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.2); 
+  }
+  
+  h3 {
+    color: goldenrod !important;
+  }
+  

@@ -1,0 +1,64 @@
+
+#lis{
+    color: rgb(209, 178, 1);
+}
+.container {
+    margin-top: 2rem;
+    
+    
+}
+
+
+.card-style {
+    color: #f8f9fa;
+    border: 2px solid goldenrod !important;
+    border-radius: 15px !important;
+    box-shadow:  5px 15px rgba(255, 255, 255, 0.5) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-style:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(218, 165, 32, 0.8);
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid goldenrod;
+    padding-bottom: 0.5rem;
+    color: goldenrod !important;
+}
+
+.card-description, 
+.card-monto, 
+.card-fecha {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: gold;
+}
+
+.card-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .card-style {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-description, 
+    .card-monto, 
+    .card-fecha {
+        font-size: 1rem;
+    }
+}

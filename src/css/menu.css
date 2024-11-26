@@ -1,0 +1,35 @@
+.menu {
+    background-color: #1a1a1a; /* Fondo negro oscuro */
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    color: #d4af37; /* Color dorado */
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* Texto blanco */
+    font-size: 1rem;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #d4af37; /* Cambia a dorado al pasar el cursor */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #d4af37; /* Resalta el enlace activo */
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #d4af37; /* Ícono dorado para el botón */
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  

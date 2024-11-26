@@ -1,0 +1,53 @@
+.desarrolladores-custom-bg {
+    min-height: 100vh;
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  
+  .desarrolladores-custom-bg h1,
+  .desarrolladores-custom-bg p {
+    color: goldenrod;
+  }
+  
+  .desarrolladores-card {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .desarrolladores-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .desarrolladores-card-title {
+    color: goldenrod !important;
+  }
+  
+  .desarrolladores-card-img-top {
+    border: 2px solid goldenrod !important;
+    padding: 5px;
+  }
+  
+  .desarrolladores-btn-outline-primary {
+    border-color: goldenrod !important;
+    color: goldenrod !important;
+  }
+  
+  .desarrolladores-btn-outline-primary:hover {
+    background-color: goldenrod;
+    color: black;
+  }
+  
+  .desarrolladores-btn-outline-dark {
+    border-color: white !important;
+    color: white;
+  }
+  
+  .desarrolladores-btn-outline-dark:hover {
+    background-color: gold !important;
+    color: black !important;
+  }
+  

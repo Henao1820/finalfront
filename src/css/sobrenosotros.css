@@ -1,0 +1,29 @@
+
+.sobre-nosotros .bg-dark{
+    background-color: #2c2c2c;
+}
+
+.sobre-nosotros .text-golden {
+    color: gold;
+    font-weight: bold;
+}
+
+
+.sobre-nosotros img {
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px  rgba(0, 0, 0, 0.2);
+
+}
+
+
+.sobre-nosotros .display-4 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.sobre-nosotros p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #f1f1f1;
+}
